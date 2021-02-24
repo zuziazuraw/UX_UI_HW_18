@@ -5,6 +5,31 @@ body {
     font-weight: 400;
 }
 
+/*typography*/
+
+h1 {
+font-family: Basic Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 58px;
+
+letter-spacing: 0.3em;
+
+color: #4542AE;
+
+}
+
+p {
+font-family: Basic Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+
+color: #000000;
+}
+
 /*navigation */
 
 .navBar {
@@ -74,5 +99,53 @@ nav li::after {
 nav li:hover::after {
     width: 100%;
 
+}
 
+/*about me section*/
+
+.aboutMe {
+    width: auto;
+    margin: 0 120px;
+    background-color: wheat;
+    padding: 20px;
+    
+    position: relative;
+}
+
+.aboutMe:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.title {
+    position: relative;
+}
+
+.aboutText {
+    padding-right: 100px;
+    float:inline-block;
+    
+}
+
+.myPic {
+    float:right;
+    margin: 10px;
+    padding-left: auto;
+}
+
+
+/*
+
+.aboutText {
+padding: 20px;
+background-color: cadetblue;
+margin: auto;
+font-family: Basic Sans;
+float: left;
+
+
+
+color: #000000;
 }
