@@ -19,6 +19,16 @@ letter-spacing: 0.3em;
 color: #4542AE;
 
 }
+h2 {
+    font-family: Basic Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+
+letter-spacing: 0.1em;
+
+}
 
 p {
 font-family: Basic Sans;
@@ -30,10 +40,12 @@ line-height: 30px;
 color: #000000;
 }
 
+
+
 /*navigation */
 
 .navBar {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -50,7 +62,7 @@ header::after {
 .logo {
     float: left;
     width: 90px;
-    padding: 10px 0;
+    padding-left: 50px;
 }
 
 nav {
@@ -103,13 +115,13 @@ nav li:hover::after {
 
 /*about me section*/
 
-.aboutMe {
+section {
     width: auto;
     margin: 0 120px;
-    background-color: wheat;
     padding: 20px;
     
     position: relative;
+    text-align: justify;
 }
 
 .aboutMe:after{
@@ -118,15 +130,11 @@ nav li:hover::after {
     clear: both;
 }
 
-
-.title {
-    position: relative;
-}
-
 .aboutText {
-    padding-right: 100px;
-    float:inline-block;
-    
+    font-family: Basic-Sans;
+    margin: auto;
+    width: 500px;
+    margin: 0;
 }
 
 .myPic {
@@ -136,16 +144,75 @@ nav li:hover::after {
 }
 
 
-/*
+/*pro skills*/
 
-.aboutText {
-padding: 20px;
-background-color: cadetblue;
-margin: auto;
-font-family: Basic Sans;
-float: left;
+.proContainer {
+    float: left;
+    overflow: hidden;
+    width: auto;
+    padding-top: 50px;
+}
 
+.skills{
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    display: block;
+    background-color: whitesmoke;
+}
 
+.skills h2 {
+    padding-top: 30px;
+    font-size: 24px;
+}
 
-color: #000000;
+.skills p {
+    font-size: 20px;
+}
+
+figure {
+    float: left;
+    margin: auto;
+    padding: 30px;
+    margin-right: 50px;
+    display: block;
+}
+
+/*footer*/
+
+.foot {
+    background-color: #E2E0D7;
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+footer a{
+    justify-content: center;
+    display: inline-block;
+    padding: 15px;
+    margin: auto;
+    color: black;
+    position: relative;
+    text-decoration: none;
+
+}
+footer a:hover {
+    color:#4542AE;
+}
+
+.foot p {
+    justify-content: center;
+    font-size: 16px;
+    padding: 5px;
 }
