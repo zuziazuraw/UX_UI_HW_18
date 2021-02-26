@@ -115,6 +115,33 @@ nav li:hover::after {
 
 }
 
+
+/*projects*/
+
+.projects {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+}
+
+.content {
+    background-color: #E2E0D7 ;
+    padding: 50px;
+    margin: auto;
+
+}
+
+.projectText {
+    display: block;
+}
+
+.proj2 {
+    margin-top:20px ;
+}
+
+
+
+
 /*footer*/
 
 .foot {
@@ -152,3 +179,14 @@ footer a:hover {
     justify-content: center;
     font-size: 16px;
     padding: 5px;
+
+
+
+    @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+
+        .h1 {
+            font-size:24px;
+        }
