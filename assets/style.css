@@ -155,7 +155,7 @@ nav li:hover::after {
 }
 
 .mySkills h1{
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .flexContainer {
@@ -184,6 +184,7 @@ img {
 .skills h2 {
     flex-wrap: wrap;
     display: flex;
+    
 }
 
 .skills p {
@@ -270,12 +271,19 @@ body {
     display: inline-block;
     overflow: hidden;
 }
+/*
 nav a{
-    display:inline
+    display:inline;
+}
+*/
+
+nav {
+    margin-right: 20vw;
 }
 .logo {
     width: 100px;
     padding-top: 20px;
+    margin-left: 3vw;
 }
 /*about me*/
 
@@ -283,21 +291,42 @@ nav a{
 display: block;
 }
 
+.aboutMe {
+    justify-content: center;
+}
+
+
 .myPic {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10px;
 }
 
 .aboutText {
     flex-wrap: wrap;
     width: 400px;
+    margin-left: -11vw;
 
 }
-    
+  
 h1 {
-    font-size: 30px;
+    font-size: 27px;
     justify-content: center;
     }
 p {
         font-size: 16px;
     }
+.skills h2 {
+    font-size: 20px;
+}
+
+.skillsText {
+    max-width: 10px;
+
+
+}
+.mySkills {
+    margin-right: 4vw;
+}
+
+}
