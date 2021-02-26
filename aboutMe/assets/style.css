@@ -137,8 +137,6 @@ nav li:hover::after {
     font-family: Basic-Sans;
     margin: 0 0 1em 0;
     width: 500px;
-
-  
 }
 
 .myPic {
@@ -300,6 +298,6 @@ h1 {
     font-size: 30px;
     justify-content: center;
     }
-    p{
+p {
         font-size: 16px;
     }
