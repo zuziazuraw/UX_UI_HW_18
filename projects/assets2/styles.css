@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    background: white;
+    font-family: Basic Sans;
+    font-weight: 400;
+}
+
+/*typography*/
+
+h1 {
+font-family: Basic Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 58px;
+
+letter-spacing: 0.3em;
+
+color: #4542AE;
+
+}
+h2 {
+font-family: Basic Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+
+letter-spacing: 0.1em;
+
+}
+
+p {
+font-family: Basic Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+
+color: #000000;
+}
+
+
+
+/*header---------------------- */
+
+header {
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 10px;
+    
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    width: 90px;
+    padding-left: 50px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: white;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 45px;
+
+    position: relative;
+}
+
+nav a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*nav effects*/
+
+nav a:hover {
+    color: #4542AE;
+}
+
+nav li::after {
+    content: '';
+    display: block ;
+    height: 3px;
+    width: 100%;
+    background-color:#4542AE ;
+    position: absolute;
+    bottom: -15px;
+    width: 0%;
+    
+    transition: all ease-in-out 250ms;
+}
+
+nav li:hover::after {
+    width: 100%;
+
+}
+
+/*footer*/
+
+.foot {
+    background-color: #E2E0D7;
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+footer a{
+    justify-content: center;
+    display: inline-block;
+    padding: 15px;
+    margin: auto;
+    color: black;
+    position: relative;
+    text-decoration: none;
+
+}
+footer a:hover {
+    color:#4542AE;
+}
+
+.foot p {
+    justify-content: center;
+    font-size: 16px;
+    padding: 5px;
